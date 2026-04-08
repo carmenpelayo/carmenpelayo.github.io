@@ -3,6 +3,8 @@ layout: default
 title: CV
 ---
 
+{% include sidebar.html %}
+
 # CV
 
 ## Experience
