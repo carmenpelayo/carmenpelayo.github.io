@@ -32,6 +32,14 @@ title: Research
 
 ---
 
+## Local Demand Forecasting (Publication)
+
+<iframe src="/assets/docs/sri_lanka.pdf" width="100%" height="400px"></iframe>
+
+- Compared ARIMA vs NeuralProphet vs N-BEATS
+- Metric: MAPE improvement with DL models
+- Key insight: external variables (weather/events) significantly improve accuracy
+
 ## Economic Forecasting @ BBVA
 
 - Deep learning for financial indicators
