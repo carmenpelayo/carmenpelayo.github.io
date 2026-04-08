@@ -5,25 +5,29 @@ title: About
 
 # Carmen Pelayo
 
-Data Scientist working at the intersection of **AI, economics, and public policy**.
+Data Scientist working at the intersection of **AI, economics, and geoeconomics**.
 
 ## About Me
 
-I am currently an AI Economic Analyst at **BBVA Research**, where I develop socioeconomic indicators and forecasting models using machine learning, deep learning, and large language models.
+I graduated with a B.S. in Management and Technology (minor in Economics) from Universidad Carlos III de Madrid. During my final year, I studied at the University of Wisconsin–Madison, combining coursework from the School of Business and the Department of Computer Science.
 
-My work focuses on:
-- Economic forecasting with ML/DL
-- Alternative data for macro indicators
-- NLP for monetary policy analysis
+I later completed an M.S. in Data Science at Boston University (GPA: 3.7/4.0), where I also worked as a Teaching Assistant in AI Ethics.
 
-I hold a Master's in Data Science from Boston University (GPA: 3.7/4.0), where I specialized in machine learning, reinforcement learning, and AI ethics.
+I have professional experience across consulting, enterprise technology, and data science at Deloitte, Avasant, Spectrum Brands, and Clever Ads.
+
+Currently, I am a **Research Analyst at BBVA Research**, working in the Big Data & AI Economic Analysis unit. My work focuses on applying advanced analytics (Big Data, NLP, LLMs) to analyze macroeconomic and geopolitical dynamics.
+
+I am particularly interested in:
+- Geoeconomics and global technological competition
+- AI applications in macroeconomic forecasting
+- Ethical and responsible AI development
 
 ---
 
 ## News
 
-- **2024** — Joined BBVA Research (Big Data & AI team)
-- **2024** — Teaching Assistant at Boston University (Data & Ethics)
-- **2023** — Finalist at MIT Energy & Climate Hackathon
-- **2023** — Built real-time climate trading ML system
-- **2022–2023** — Experience at Deloitte & Avasant in tech consulting
+- **2026** — Modeling geoeconomic impact of Colombian elections
+- **2025** — Developed geoeconomic indicators using NLP + news data
+- **2024** — Joined BBVA Research (Big Data & AI)
+- **2024** — Received Graduate Teaching Excellence Award (BU)
+- **2023** — Finalist, MIT Energy & Climate Hackathon
