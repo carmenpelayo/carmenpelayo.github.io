@@ -3,6 +3,8 @@ layout: default
 title: About
 ---
 
+{% include sidebar.html %}
+
 # Carmen Pelayo
 
 Data Scientist working at the intersection of **AI, economics, and geoeconomics**.
