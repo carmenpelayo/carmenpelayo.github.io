@@ -7,10 +7,12 @@ title: CV
 
 ## Experience
 
-### BBVA Research — AI Economic Analyst (2024–Present)
-- Developed socioeconomic indicators using big data
-- Built deep learning forecasting models
-- Fine-tuned LLMs for monetary policy analysis
+{% include experience_item.html 
+logo="/assets/img/logos/bbva.png"
+title="Research Analyst"
+company="BBVA Research"
+date="Jun 2024 – Present"
+bullets=site.data.bbva %}
 
 ### Boston University — Teaching Assistant
 - Led discussions and office hours
