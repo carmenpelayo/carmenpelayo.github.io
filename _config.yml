@@ -7,3 +7,7 @@ theme: minima
 
 plugins:
   - jekyll-feed
+
+email: carmen.pelayo@bbva.com
+github_username: carmenpelayo
+linkedin_username: carmenpelayofernandez
