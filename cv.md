@@ -7,21 +7,37 @@ title: CV
 
 ## Experience
 
-**BBVA Research** – AI Economic Analyst (2024–Present)
-- Socioeconomic indicators with big data
-- Deep learning forecasting
-- LLM fine-tuning
+### BBVA Research — AI Economic Analyst (2024–Present)
+- Developed socioeconomic indicators using big data
+- Built deep learning forecasting models
+- Fine-tuned LLMs for monetary policy analysis
 
-**Deloitte** – Technology Analyst
+### Boston University — Teaching Assistant
+- Led discussions and office hours
+- Course: Data, Society, and Ethics
+
+### Deloitte Consulting
+- Customer analytics and marketing optimization
+- Salesforce migration project
+
+### Avasant
+- Digital strategy consulting
+- Vendor negotiations
+
+---
 
 ## Education
 
-**Boston University** – MSc Data Science
+### Boston University — MSc Data Science
+GPA: 3.7/4.0
 
-**UC3M** – BSc Management & Technology
+### Universidad Carlos III — BSc Management & Technology
+Grade: 8.4/10
+
+---
 
 ## Skills
 
-Python, R, SQL, AWS, Machine Learning
+Python · R · SQL · AWS · Machine Learning · Deep Learning · NLP
 
 [Download full CV](/assets/cv.pdf)
