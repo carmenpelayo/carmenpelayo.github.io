@@ -1,4 +1,9 @@
 title: "Carmen Pelayo Fernández"
-description: "Data Scientist | BBVA Research"
+description: "BBVA Research | AI, Economics, Geopolitics"
 baseurl: ""
 url: "https://carmenpelayo.github.io"
+
+theme: minima
+
+plugins:
+  - jekyll-feed
