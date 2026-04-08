@@ -28,3 +28,9 @@ nav a {
 h1 {
   font-size: 2.5rem;
 }
+
+.profile-pic {
+  width: 160px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
