@@ -3,13 +3,37 @@ layout: default
 title: Research
 ---
 
-# Research
+# Projects
 
-## Energy Consumption Prediction
-AutoML-based time series model (R² = 0.83, 1.4M+ observations).
+## Energy Consumption Prediction (MIT Hackathon Finalist)
 
-## Climate Market Trading Tool
-ML system for real-time climate contract trading.
+- Dataset: 1.4M+ observations
+- Approach: AutoML + ensemble methods
+- Result: R² = 0.83
+- Key contribution: Cold-start prediction with minimal data
 
-## Location Recommendation System
-Algorithm covering 242 European regions using 22 socioeconomic variables.
+---
+
+## Climate Market Trading System
+
+- Built 3 ML models for temperature prediction
+- Integrated 6 heterogeneous data sources
+- Output: real-time trading decisions on Kalshi
+- Innovation: minute-level forecasting
+
+---
+
+## Location Recommendation System (Bachelor Thesis)
+
+- Data: 242 European regions, 22 features
+- Model: matching + scoring algorithm
+- Output: interactive web app
+- Grade: 10/10
+
+---
+
+## Economic Forecasting @ BBVA
+
+- Deep learning for financial indicators
+- Example: Colombian NPL prediction
+- LLM fine-tuning for sentiment analysis
