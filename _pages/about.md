@@ -1,33 +1,36 @@
 ---
-layout: default
-title: About
+permalink: /
+title: "About"
+author_profile: true
+redirect_from:
+  - /about/
 ---
 
-# Carmen Pelayo
+I am an economist and data scientist based in Madrid, currently working at **BBVA Research**. My background sits at the intersection of **economics, artificial intelligence, and technology strategy**, with experience across research, consulting, and teaching.
 
-Data Scientist working at the intersection of **AI, economics, and geoeconomics**.
+I hold a **B.Sc. in Management and Technology** from **Universidad Carlos III de Madrid**, where I also completed a **Complementary Diploma in Economics**. During my undergraduate years, I studied abroad at the **University of Wisconsin–Madison**. Later, I completed an **M.S. in Data Science at Boston University**, specializing in **artificial intelligence**.
 
-## About Me
+Before moving fully into data science, I worked in **enterprise technology consulting**, advising companies on digitization and technology strategy. More recently, my work has focused on **AI, innovation, and applied economic analysis**, combining quantitative methods with a strong interest in how technological change shapes firms, labor markets, and productivity.
 
-I graduated with a B.S. in Management and Technology (minor in Economics) from Universidad Carlos III de Madrid. During my final year, I studied at the University of Wisconsin–Madison, combining coursework from the School of Business and the Department of Computer Science.
+Alongside my graduate studies, I worked as a **teaching assistant in AI Ethics** at Boston University’s Faculty of Computing & Data Sciences. In recognition of that work, I received the **2023–2024 CDS Graduate Teaching Excellence Award**.
 
-I later completed an M.S. in Data Science at Boston University (GPA: 3.7/4.0), where I also worked as a Teaching Assistant in AI Ethics.
+## What I work on
 
-I have professional experience across consulting, enterprise technology, and data science at Deloitte, Avasant, Spectrum Brands, and Clever Ads.
+My interests include:
 
-Currently, I am a **Research Analyst at BBVA Research**, working in the Big Data & AI Economic Analysis unit. My work focuses on applying advanced analytics (Big Data, NLP, LLMs) to analyze macroeconomic and geopolitical dynamics.
+- Artificial intelligence and technological change
+- Applied data science and machine learning
+- Economic analysis of innovation and productivity
+- Responsible AI and digital policy
+- Forecasting, experimentation, and decision support
 
-I am particularly interested in:
-- Geoeconomics and global technological competition
-- AI applications in macroeconomic forecasting
-- Ethical and responsible AI development
+## Selected background
 
----
+- **BBVA Research** — economist / AI-focused research
+- **Boston University** — M.S. in Data Science
+- **Deloitte** and **Avasant** — enterprise technology consulting
+- **Universidad Carlos III de Madrid** — Management and Technology + Economics
 
-## News
+## This website
 
-- **2026** — Modeling geoeconomic impact of Colombian elections
-- **2025** — Developed geoeconomic indicators using NLP + news data
-- **2024** — Joined BBVA Research (Big Data & AI)
-- **2024** — Received Graduate Teaching Excellence Award (BU)
-- **2023** — Finalist, MIT Energy & Climate Hackathon
+This site is a simple personal space to share my background, selected projects, and CV. I prefer a concise website over a feature-heavy one, so I only keep the sections I actively use.
