@@ -2,3 +2,11 @@
 ---
 
 @import "minimal-mistakes";
+
+.masthead__menu-item--lg a {
+  font-size: 0.95em;
+}
+
+.greedy-nav .visible-links a {
+  font-size: 0.9em;
+}
