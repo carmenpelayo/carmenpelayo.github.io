@@ -3,50 +3,37 @@
 
 @import "minimal-mistakes";
 
-/* ===== ELEGANT RESPONSIVE HEADER ===== */
+/* ===== CLEAN RESPONSIVE HEADER ===== */
 
-/* Un poco menos de espacio para que el menú quepa mejor en desktop */
+/* Título algo más compacto */
 .masthead__menu-item--lg a {
   font-size: 0.95em;
 }
 
+/* Enlaces del menú algo más compactos */
 .greedy-nav .visible-links a {
   white-space: nowrap;
   font-size: 0.92em;
 }
 
-/* Ajusta mejor el reparto entre título y navegación */
-.masthead__inner-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* En pantallas amplias: prioriza mostrar el menú horizontal */
+/* Solo en escritorio amplio, compacta un poco más */
 @media (min-width: 1024px) {
-  .greedy-nav .visible-links a {
-    font-size: 0.95em;
+  .masthead__menu-item--lg a {
+    font-size: 0.92em;
   }
 
-  .masthead__menu-item--lg a {
-    font-size: 0.95em;
+  .greedy-nav .visible-links a {
+    font-size: 0.88em;
   }
 }
 
-/* En tablet: compacta un poco, pero sigue intentando mantener visible el menú */
-@media (min-width: 768px) and (max-width: 1023px) {
+/* En móvil/tablet pequeña, deja que el tema haga lo suyo */
+@media (max-width: 1023px) {
+  .masthead__menu-item--lg a {
+    font-size: 0.95em;
+  }
+
   .greedy-nav .visible-links a {
-    font-size: 0.84em;
-  }
-
-  .masthead__menu-item--lg a {
-    font-size: 0.9em;
-  }
-}
-
-/* En móvil: deja que el tema use hamburguesa con normalidad */
-@media (max-width: 767px) {
-  .masthead__menu-item--lg a {
-    font-size: 0.9em;
+    font-size: 0.92em;
   }
 }
