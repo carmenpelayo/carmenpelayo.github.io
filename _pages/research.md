@@ -3,8 +3,6 @@ layout: default
 title: Research
 ---
 
-{% include sidebar.html %}
-
 # Projects
 
 ## Energy Consumption Prediction (MIT Hackathon Finalist)
