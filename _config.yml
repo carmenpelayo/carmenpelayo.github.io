@@ -1,7 +1,7 @@
 locale: "en-US"
 title: "CPF"
 title_separator: "-"
-name: "Carmen Pelayo Fernández"
+name: "CPF"
 description: "Economist and data scientist working at the intersection of AI, technology, and economic analysis."
 url: "https://carmenpelayo.github.io"
 baseurl: ""
