@@ -3,37 +3,26 @@
 
 @import "minimal-mistakes";
 
-/* ===== CLEAN RESPONSIVE HEADER ===== */
+/* ===== RESPONSIVE HEADER ===== */
 
-/* Título algo más compacto */
+/* Título del sitio más compacto */
 .masthead__menu-item--lg a {
-  font-size: 0.95em;
+  font-size: 0.9em;
 }
 
-/* Enlaces del menú algo más compactos */
+/* Enlaces del menú */
 .greedy-nav .visible-links a {
   white-space: nowrap;
-  font-size: 0.92em;
+  font-size: 0.9em;
 }
 
-/* Solo en escritorio amplio, compacta un poco más */
+/* Desktop: reduce un poco más para que entren las 3 pestañas */
 @media (min-width: 1024px) {
   .masthead__menu-item--lg a {
-    font-size: 0.92em;
+    font-size: 0.85em;
   }
 
   .greedy-nav .visible-links a {
-    font-size: 0.88em;
-  }
-}
-
-/* En móvil/tablet pequeña, deja que el tema haga lo suyo */
-@media (max-width: 1023px) {
-  .masthead__menu-item--lg a {
-    font-size: 0.95em;
-  }
-
-  .greedy-nav .visible-links a {
-    font-size: 0.92em;
+    font-size: 0.85em;
   }
 }
