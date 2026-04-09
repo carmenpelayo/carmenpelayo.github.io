@@ -8,7 +8,7 @@ baseurl                  : ""
 repository               : "carmenpelayo/carmenpelayo.github.io"
 
 # Theme
-remote_theme             : "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 minimal_mistakes_skin    : "default"
 
 # Site settings
