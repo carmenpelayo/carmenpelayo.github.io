@@ -3,19 +3,50 @@
 
 @import "minimal-mistakes";
 
+/* ===== ELEGANT RESPONSIVE HEADER ===== */
+
+/* Un poco menos de espacio para que el menú quepa mejor en desktop */
 .masthead__menu-item--lg a {
   font-size: 0.95em;
 }
 
 .greedy-nav .visible-links a {
-  font-size: 0.9em;
+  white-space: nowrap;
+  font-size: 0.92em;
 }
 
-/* Forzar menú visible (solo si sigue fallando) */
-.greedy-nav .hidden-links {
-  display: none !important;
+/* Ajusta mejor el reparto entre título y navegación */
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.greedy-nav .greedy-nav__toggle {
-  display: none !important;
+/* En pantallas amplias: prioriza mostrar el menú horizontal */
+@media (min-width: 1024px) {
+  .greedy-nav .visible-links a {
+    font-size: 0.95em;
+  }
+
+  .masthead__menu-item--lg a {
+    font-size: 0.95em;
+  }
+}
+
+/* En tablet: compacta un poco, pero sigue intentando mantener visible el menú */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .greedy-nav .visible-links a {
+    font-size: 0.84em;
+  }
+
+  .masthead__menu-item--lg a {
+    font-size: 0.9em;
+  }
+}
+
+/* En móvil: deja que el tema use hamburguesa con normalidad */
+@media (max-width: 767px) {
+  .masthead__menu-item--lg a {
+    font-size: 0.9em;
+  }
 }
