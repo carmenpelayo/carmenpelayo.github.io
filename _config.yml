@@ -1,6 +1,4 @@
-# Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
 title                    : "Carmen Pelayo Fernández"
 title_separator          : "-"
 name                     : "Carmen Pelayo Fernández"
@@ -8,78 +6,36 @@ description              : "Economist and data scientist working at the intersec
 url                      : "https://carmenpelayo.github.io"
 baseurl                  : ""
 repository               : "carmenpelayo/carmenpelayo.github.io"
-teaser                   :
-logo                     :
-masthead_title           :
+
+# Theme
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default"
+
+# Site settings
+search                   : false
 breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
 read_more                : "enabled"
 talkmap_link             : false
-comments:
-  provider               : false
-atom_feed:
-  hide                   : true
-search                   : false
 
-# Site Author
+# Author
 author:
-  avatar           : "images/profile.jpg"
   name             : "Carmen Pelayo Fernández"
-  pronouns         :
+  avatar           : "/images/profile.jpeg"
   bio              : "Economist and data scientist focused on AI, digitization, and applied economic research."
   location         : "Madrid, Spain"
   employer         : "BBVA Research"
-  pubmed           :
-  googlescholar    :
   email            : "carmen.pelayo@bbva.com"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
   github           : "carmenpelayo"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      :
-  lastfm           :
   linkedin         : "carmenpelayofernandez"
-  orcid            :
-  pinterest        :
-  soundcloud       :
-  stackoverflow    :
-  steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
 
-# Publication Category
-publication_category:
-  books:
-    title: "Books"
-  manuscripts:
-    title: "Journal Articles"
-  conferences:
-    title: "Conference Papers"
-  chapters:
-    title: "Book Chapters"
-
-# Reading Files
+# Reading files
 include:
-  - .htaccess
   - _pages
   - files
 
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
   - vendor
   - .bundle
   - node_modules
@@ -90,7 +46,6 @@ exclude:
 
 keep_files:
   - .git
-  - .svn
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -98,9 +53,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 # Conversion
 markdown: kramdown
 highlighter: rouge
-lsi: false
 excerpt_separator: "\n\n"
-incremental: false
 
 # Markdown Processing
 kramdown:
@@ -131,7 +84,7 @@ defaults:
       comments: false
       related: false
 
-# Sass/Assets
+# Sass
 sass:
   sass_dir: _sass
   style: compressed
@@ -142,8 +95,7 @@ timezone: Europe/Madrid
 
 # Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
+  - jekyll-include-cache
   - jekyll-feed
+  - jekyll-sitemap
   - jemoji
