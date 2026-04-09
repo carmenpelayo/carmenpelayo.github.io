@@ -3,34 +3,22 @@
 
 @import "minimal-mistakes";
 
-/* ===== FIX GREEDY NAV (DESKTOP) ===== */
-
-/* En desktop, forzar visibilidad del menú */
+/* Desktop: mostrar navegación horizontal */
 @media (min-width: 1024px) {
-
-  /* Oculta hamburguesa */
   .greedy-nav__toggle {
     display: none !important;
   }
 
-  /* Oculta menú desplegable */
   .greedy-nav .hidden-links {
     display: none !important;
   }
 
-  /* Fuerza mostrar links */
   .greedy-nav .visible-links {
     display: flex !important;
   }
 
-  /* Ajuste de texto */
   .greedy-nav .visible-links a {
     white-space: nowrap;
     font-size: 0.9em;
-  }
-}
-
-  .greedy-nav .visible-links a {
-    font-size: 0.85em;
   }
 }
