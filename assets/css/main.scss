@@ -3,24 +3,32 @@
 
 @import "minimal-mistakes";
 
-/* ===== RESPONSIVE HEADER ===== */
+/* ===== FIX GREEDY NAV (DESKTOP) ===== */
 
-/* Título del sitio más compacto */
-.masthead__menu-item--lg a {
-  font-size: 0.9em;
-}
-
-/* Enlaces del menú */
-.greedy-nav .visible-links a {
-  white-space: nowrap;
-  font-size: 0.9em;
-}
-
-/* Desktop: reduce un poco más para que entren las 3 pestañas */
+/* En desktop, forzar visibilidad del menú */
 @media (min-width: 1024px) {
-  .masthead__menu-item--lg a {
-    font-size: 0.85em;
+
+  /* Oculta hamburguesa */
+  .greedy-nav__toggle {
+    display: none !important;
   }
+
+  /* Oculta menú desplegable */
+  .greedy-nav .hidden-links {
+    display: none !important;
+  }
+
+  /* Fuerza mostrar links */
+  .greedy-nav .visible-links {
+    display: flex !important;
+  }
+
+  /* Ajuste de texto */
+  .greedy-nav .visible-links a {
+    white-space: nowrap;
+    font-size: 0.9em;
+  }
+}
 
   .greedy-nav .visible-links a {
     font-size: 0.85em;
