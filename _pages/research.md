@@ -1,72 +1,35 @@
 ---
-permalink: /cv/
-title: "CV"
+permalink: /research/
+title: "Research"
 author_profile: true
 ---
 
-You can download a PDF version of my CV here: [Download CV](/files/Carmen_Pelayo_Fernandez_CV.pdf)
+This page highlights a few projects that reflect my interests in **AI, machine learning, forecasting, and applied research**.
 
-## Summary
+## ArXivScrapper
 
-Economist and data scientist with experience across **AI, economic research, and enterprise technology consulting**. Interested in the practical and economic implications of technological change, especially in artificial intelligence, innovation, and digital transformation.
+A project to track the evolution of science worldwide by topic using publication counts from ArXiv. The goal is to build lightweight indicators of scientific and technological change over time.
 
-## Experience
+## TradingTool
 
-### BBVA Research
-**Economist / AI-focused research**  
-Madrid, Spain
+A machine learning project built for a student competition, designed as an automated tool for climate-event trading on Kalshi. It achieved the best performance in class.
 
-Work at the intersection of economics and technology, with a particular interest in artificial intelligence, innovation indicators, and applied research.
+## Time Series Forecasting
 
-### Boston University — Faculty of Computing & Data Sciences
-**Teaching Assistant, AI Ethics**  
-Boston, MA
+An exploration of classical and deep learning methods for demand forecasting, comparing different approaches on real-world data.
 
-Supported teaching in AI Ethics while completing the M.S. in Data Science. Recipient of the **2023–2024 CDS Graduate Teaching Excellence Award**.
+## Image Captioning
 
-### Deloitte
-**Enterprise Technology Consultant**
+A deep learning project focused on image caption generation using large language models.
 
-Advised organizations on digitization and technology-related strategy.
+## Reinforcement Learning / Deep Learning / Cryptography coursework
 
-### Avasant
-**Enterprise Technology Consultant**
+A selection of technical coursework and implementations developed during my graduate studies at Boston University, covering reinforcement learning, deep learning, and cryptography for data science.
 
-Worked on technology consulting and digital transformation projects.
+## Earlier research
 
-### Spectrum Brands, Inc.
-**Summer Intern**  
-Middleton, Wisconsin, USA
+Before graduate school, I developed an undergraduate thesis project around a **location recommendation system for technology companies in Europe**, combining socioeconomic regional data with a customizable matching algorithm.
 
-Completed an internship at the company’s headquarters after the study-abroad period at the University of Wisconsin–Madison.
+---
 
-## Education
-
-### Boston University
-**M.S. in Data Science**  
-Specialization in Artificial Intelligence
-
-### Universidad Carlos III de Madrid
-**B.Sc. in Management and Technology**  
-Honors thesis
-
-### Universidad Carlos III de Madrid
-**Complementary Diploma in Economics**
-
-### University of Wisconsin–Madison
-**Study Abroad Program**
-
-## Projects
-
-- **ArXivScrapper** — tracking the evolution of scientific production by topic through ArXiv data.
-- **TradingTool** — machine learning project for climate-event trading.
-- **Time Series Forecasting** — comparison of classical and deep learning forecasting models.
-- **Image Captioning** — image caption generation using LLM-based approaches.
-- **Undergraduate thesis** — location recommendation system for technology companies in Europe using regional socioeconomic data.
-
-## Skills
-
-**Languages:** Spanish, English  
-**Programming:** Python, Jupyter Notebook  
-**Areas:** Data science, machine learning, AI, forecasting, economic analysis, digital transformation  
-**Tools & workflows:** Research, technical communication, teaching support, applied analytics
+You can also browse more code and class projects on my GitHub profile.
