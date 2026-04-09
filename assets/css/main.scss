@@ -10,3 +10,12 @@
 .greedy-nav .visible-links a {
   font-size: 0.9em;
 }
+
+/* Forzar menú visible (solo si sigue fallando) */
+.greedy-nav .hidden-links {
+  display: none !important;
+}
+
+.greedy-nav .greedy-nav__toggle {
+  display: none !important;
+}
