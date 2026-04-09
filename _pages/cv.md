@@ -3,18 +3,9 @@ layout: default
 title: CV
 ---
 
-{% include sidebar.html %}
-
 # CV
 
 ## Experience
-
-{% include experience_item.html 
-logo="/assets/img/logos/bbva.png"
-title="Research Analyst"
-company="BBVA Research"
-date="Jun 2024 – Present"
-bullets=site.data.bbva %}
 
 ### Boston University — Teaching Assistant
 - Led discussions and office hours
