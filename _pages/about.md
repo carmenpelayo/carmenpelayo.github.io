@@ -2,8 +2,6 @@
 permalink: /
 title: "About"
 author_profile: true
-redirect_from:
-  - /about/
 ---
 
 I am an economist and data scientist based in Madrid, currently working at **BBVA Research**. My background sits at the intersection of **economics, artificial intelligence, and technology strategy**, with experience across research, consulting, and teaching.
@@ -23,11 +21,6 @@ My interests include:
 - Economic analysis of innovation and productivity
 - Responsible AI and digital policy
 - Forecasting, experimentation, and decision support
-
-## Selected background
-
-- **BBVA Research** — economist / AI-focused research
-- **Boston University** — M.S. in Data Science
 - **Deloitte** and **Avasant** — enterprise technology consulting
 - **Universidad Carlos III de Madrid** — Management and Technology + Economics
 
